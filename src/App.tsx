@@ -1,8 +1,10 @@
-function App() {
+import { Button } from "antd";
+
+const App = () => {
 	return (
-		<>
-			<h1>Hello, World!</h1>
-		</>
+		<div className="App">
+			<Button>Hello, World!</Button>
+		</div>
 	);
 };
 
